@@ -1015,7 +1015,7 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
 	<ingredient name="drinkJarRiverWater" count="1"/>
 </recipe>
 
-<recipe name="drinkJarGrandpasAwesomeSauce" count="1" craft_area="campfire" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
+<recipe name="drinkJarGrandpasAwesomeSauce" count="1" craft_area="campfire" craft_tool="toolCookingPot" tags="perkMasterChef">
 	<ingredient name="casinoCoin" count="50"/>
 	<ingredient name="foodHoney" count="5"/>
 	<ingredient name="foodCropMushrooms" count="5"/>
