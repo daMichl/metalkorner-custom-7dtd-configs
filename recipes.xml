@@ -1677,7 +1677,7 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
 	<ingredient name="resourceCloth" count="2"/>
 </recipe>
 
-<recipe name="medicalFirstAidKit" count="1" craft_area="chemistryStation" tags="learnable,chemStationCrafting" >
+<recipe name="medicalFirstAidKit" count="1" craft_area="chemistryStation" tags="learnable" >
 	<ingredient name="medicalBloodBag" count="1"/>
 	<ingredient name="drinkJarGrainAlcohol" count="1"/>
 	<ingredient name="medicalBandage" count="1"/>
