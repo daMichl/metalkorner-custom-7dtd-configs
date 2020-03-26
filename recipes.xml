@@ -3558,6 +3558,12 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
 	</effect_group>
 </recipe>
 
+<!--Custom Recipes-->
+
+<recipe name="resourceCoal" count="1" craft_area="campfire" craft_tool="toolCookingPot" craft_time="10">
+	<ingredient name="resourceWood" count="2"/>
+</recipe>
+
 </recipes>
 <!-- To do (maybe / later)
 <recipe name="resourceArrowHeadSteelAP" count="1" craft_area="forge" craft_tool="toolCalipers" material_based="true">
