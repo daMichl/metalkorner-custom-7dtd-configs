@@ -9856,7 +9856,7 @@ perkNightStalkerSilentNight
 	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
 	<property name="Material" value="Morganic"/>
 	<property name="EconomicValue" value="10"/>
-	<property name="Stacknumber" value="15"/> <!-- STK medical -->
+	<property name="Stacknumber" value="1000"/> <!-- STK medical -->
 	<property name="Group" value="Science,CFChemicals,Medical"/>
 
 	<property class="Action0">
@@ -9912,7 +9912,7 @@ perkNightStalkerSilentNight
 	<property name="Meshfile" value="#Other/Items?Health/bandage.fbx"/>
 	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
 	<property name="Material" value="Mcloth"/>
-	<property name="Stacknumber" value="10"/> <!-- STK medical -->
+	<property name="Stacknumber" value="1000"/> <!-- STK medical -->
 	<property name="FuelValue" value="1"/>
 	<property name="Weight" value="5"/>
 	<property name="EconomicValue" value="5"/>
@@ -9996,7 +9996,7 @@ perkNightStalkerSilentNight
 	<property name="Group" value="Science,Medical"/>
 	<property name="EconomicValue" value="15"/>
 	<property name="DescriptionKey" value="medicalFirstAidBandageDesc"/>
-	<property name="Stacknumber" value="5"/>
+	<property name="Stacknumber" value="1000"/>
 	<property name="CraftingIngredientExp" value="2"/>
 	<property name="UnlockedBy" value="perkYeahScience,medicalFirstAidBandageSchematic"/>
 
@@ -10079,7 +10079,7 @@ perkNightStalkerSilentNight
 	<property name="Extends" value="medicalBandage" param1="DescriptionKey"/>
 	<property name="Group" value="Science,Medical"/>
 	<property name="EconomicValue" value="200"/>
-	<property name="Stacknumber" value="5"/>
+	<property name="Stacknumber" value="1000"/>
 	<property name="UnlockedBy" value="perkYeahScience,medicalFirstAidKitSchematic"/>
 
 	<property class="Action0">
@@ -10168,7 +10168,7 @@ perkNightStalkerSilentNight
 	<property name="Meshfile" value="#Other/Items?Health/gauze.fbx"/>
 	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
 	<property name="Material" value="Mwood"/>
-	<property name="Stacknumber" value="5"/> <!-- STK loot -->
+	<property name="Stacknumber" value="1000"/> <!-- STK loot -->
 	<property name="FuelValue" value="40"/>
 	<property name="EconomicValue" value="10"/>
 	<property name="Group" value="Science,Medical"/>
@@ -10253,6 +10253,7 @@ perkNightStalkerSilentNight
 	<property name="Extends" value="medicalSplint"/>
 	<property name="FuelValue" value="0"/>
 	<property name="UnlockedBy" value="perkYeahScience,medicalPlasterCastSchematic"/>
+	<property name="Stacknumber" value="1000"/> <!-- STK loot -->
 
 	<effect_group name="Primary Action" tiered="false"> <!-- splint -->
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffLegCast">
@@ -10335,7 +10336,7 @@ perkNightStalkerSilentNight
 	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
 	<property name="Material" value="Mplastics"/>
 	<property name="Weight" value="6"/>
-	<property name="Stacknumber" value="1"/> <!-- STK loot -->
+	<property name="Stacknumber" value="1000"/> <!-- STK loot -->
 </item>
 
 <item name="medicalBloodBag">
@@ -10344,7 +10345,7 @@ perkNightStalkerSilentNight
 	<property name="Meshfile" value="#Other/Items?Food/bottled_waterPrefab.prefab"/>
 	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
 	<property name="Material" value="Morganic"/>
-	<property name="Stacknumber" value="15"/>
+	<property name="Stacknumber" value="1000"/>
 	<property name="EconomicValue" value="5"/>
 	<property name="EconomicBundleSize" value="1"/>
 	<property name="SellableToTrader" value="false"/>
@@ -10360,7 +10361,7 @@ perkNightStalkerSilentNight
 	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
 	<property name="Material" value="Morganic"/>
 	<property name="EconomicValue" value="80"/>
-	<property name="Stacknumber" value="10"/> <!-- STK loot -->
+	<property name="Stacknumber" value="1000"/> <!-- STK loot -->
 	<property name="Group" value="Science,CFChemicals,Medical"/>
 	<property class="Action0">
 		<property name="Class" value="Eat"/>
@@ -10386,7 +10387,7 @@ perkNightStalkerSilentNight
 	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
 	<property name="Material" value="Morganic"/>
 	<property name="EconomicValue" value="80"/>
-	<property name="Stacknumber" value="10"/> <!-- STK loot -->
+	<property name="Stacknumber" value="1000"/> <!-- STK loot -->
 	<property name="Group" value="Science,CFChemicals,Medical"/>
 	<property class="Action0">
 		<property name="Class" value="Eat"/>
@@ -10416,7 +10417,7 @@ perkNightStalkerSilentNight
 	<property name="CustomIcon" value="drugPainkillers"/> <property name="CustomIconTint" value="b0ffb0"/>
 	<property name="Material" value="Morganic"/>
 	<property name="EconomicValue" value="120"/>
-	<property name="Stacknumber" value="10"/> <!-- STK loot -->
+	<property name="Stacknumber" value="1000"/> <!-- STK loot -->
 	<property name="UnlockedBy" value="drugHerbalAntibioticsSchematic"/>
 	<property name="DisplayType" value="cureInfection"/>
 	<property name="TintColor" value="120,255,120"/>
@@ -10442,7 +10443,7 @@ perkNightStalkerSilentNight
 	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
 	<property name="Material" value="Morganic"/>
 	<property name="EconomicValue" value="240"/>
-	<property name="Stacknumber" value="10"/> <!-- STK loot -->
+	<property name="Stacknumber" value="1000"/> <!-- STK loot -->
 	<property name="UnlockedBy" value="perkYeahScience,drugAntibioticsSchematic"/>
 	<property name="DisplayType" value="cureInfection"/>
 	<property name="Group" value="Science,CFChemicals,Medical"/>
@@ -10475,7 +10476,7 @@ perkNightStalkerSilentNight
 	<property name="CreativeMode" value="Dev"/>
 	<property name="CustomIcon" value="drugPainkillers"/> <property name="CustomIconTint" value="ff4040"/>
 	<property name="SellableToTrader" value="false"/>
-	<property name="Stacknumber" value="1"/>
+	<property name="Stacknumber" value="1000"/>
 	<property name="TintColor" value="255,60,60"/>
 
 	<property class="Action0">
@@ -10531,6 +10532,7 @@ perkNightStalkerSilentNight
 	<property name="CreativeMode" value="Dev"/>
 	<property name="CustomIcon" value="drugPainkillers"/> <property name="CustomIconTint" value="4040ff"/>
 	<property name="SellableToTrader" value="false"/>
+	<property name="Stacknumber" value="1000"/> <!-- STK loot -->
 	<property class="Action0">
 		<property name="Class" value="Eat"/>
 		<property name="Delay" value="1.0"/>
@@ -10559,6 +10561,7 @@ perkNightStalkerSilentNight
 	<property name="EconomicValue" value="250"/>
 	<property name="UnlockedBy" value="perkYeahScience"/>
 	<property name="Group" value="Science,Medical"/>
+	<property name="Stacknumber" value="1000"/> <!-- STK loot -->
 	<effect_group tiered="false">
 		<display_value name="dStrength" value="3"/>
 		<display_value name="dCarryCapacity" value="50"/>
@@ -10579,7 +10582,7 @@ perkNightStalkerSilentNight
 	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
 	<property name="Material" value="Morganic"/>
 	<property name="EconomicValue" value="250"/>
-	<property name="Stacknumber" value="10"/> <!-- STK loot -->
+	<property name="Stacknumber" value="1000"/> <!-- STK loot -->
 	<property name="UnlockedBy" value="perkYeahScience"/>
 	<property name="Group" value="Science,Medical"/>
 	<property class="Action0">
@@ -10608,7 +10611,7 @@ perkNightStalkerSilentNight
 	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
 	<property name="Material" value="Morganic"/>
 	<property name="EconomicValue" value="250"/>
-	<property name="Stacknumber" value="10"/> <!-- STK loot -->
+	<property name="Stacknumber" value="1000"/> <!-- STK loot -->
 	<property name="UnlockedBy" value="perkYeahScience"/>
 	<property name="Group" value="Science,Medical"/>
 	<property class="Action0">
