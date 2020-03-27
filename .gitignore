@@ -1,1 +1,2 @@
-Localization.xlsx
+# also ignores ~$Localization.xlsx temporary data
+*Localization.xlsx
