@@ -11979,7 +11979,7 @@ perkNightStalkerSilentNight
 	<property name="Meshfile" value="#Other/Items?Food/bottled_waterPrefab.prefab"/>
 	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
 	<property name="Material" value="Mglass"/>
-	<property name="Stacknumber" value="125"/> <!-- STK resource -->
+	<property name="Stacknumber" value="1000"/> <!-- STK resource -->
 	<property name="Weight" value="10"/>
 	<property name="EconomicValue" value="20"/>
 	<property name="EconomicBundleSize" value="1"/>
@@ -12019,7 +12019,7 @@ perkNightStalkerSilentNight
 	<property name="Meshfile" value="#Other/Items?Food/bottled_waterPrefab.prefab"/>
 	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
 	<property name="Material" value="Mglass"/>
-	<property name="Stacknumber" value="10"/> <!-- STK drink -->
+	<property name="Stacknumber" value="1000"/> <!-- STK drink -->
 	<property name="Weight" value="10"/>
 	<property name="EconomicValue" value="40"/>
 	<property name="CraftingIngredientTime" value="15"/>
@@ -12058,7 +12058,7 @@ perkNightStalkerSilentNight
 	<property name="Meshfile" value="#Other/Items?Food/bottled_waterPrefab.prefab"/>
 	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
 	<property name="Material" value="Mglass"/>
-	<property name="Stacknumber" value="10"/> <!-- STK drink -->
+	<property name="Stacknumber" value="1000"/> <!-- STK drink -->
 	<property name="Weight" value="10"/>
 	<property name="EconomicValue" value="100"/>
 	<property name="CraftingIngredientTime" value="15"/>
