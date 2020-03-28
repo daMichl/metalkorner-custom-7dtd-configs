@@ -22458,8 +22458,16 @@ NOT the TextureNumber.
 </block>
 
 <block name="lanternDecorLight">
-	<property name="Extends" value="porchLight01"/>
-	<property name="Model" value="Entities/Lighting/lanternDecorPrefab"/>
+	<property name="Extends" value="porchLight01" param1="HandleFace,DescriptionKey"/>
+	<property name="Class" value=""/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CanPickup" value="true"/>
+	<property name="CustomIcon" value="lanternDecorLight"/>
+	<property name="Material" value="Mglass"/>
+	<property name="Model" value="Entities/Lighting/lanternPlayerPrefab"/>
+	<property name="StabilitySupport" value="false"/> <!-- build restriction -->
+	<property name="TakeDelay" value="2"/>
+	<property name="Group" value="Science,Building,advBuilding"/>
 </block>
 
 <block name="flashlightDecor">

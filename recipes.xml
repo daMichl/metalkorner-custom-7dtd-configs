@@ -1142,7 +1142,7 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
 	<ingredient name="resourceForgedIron" count="5"/>
 	<ingredient name="resourceHeadlight" count="1"/>
 	<ingredient name="resourceElectricParts" count="3"/>
-	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceDuctTape" count="1"/>
 	<ingredient name="resourceOil" count="5"/>
 </recipe>
 
