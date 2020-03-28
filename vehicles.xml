@@ -611,7 +611,7 @@ Forces:
 		<property name="motorTorqueMinQ" value="5000"/>
 		<property name="motorTorqueMaxQ" value="5000"/>
 		<property name="brakeTorque" value="5000"/>
-		<property name="upAngleMax" value="70"/>
+		<property name="upAngleMax" value="80"/>
 		<property name="upForce" value="1"/>
 		<property name="steerRate" value="130"/>
 		<property name="steerCenteringRate" value="90"/>
@@ -621,7 +621,7 @@ Forces:
 		<property name="tiltDampenThreshold" value="8"/>
 		<property name="tiltUpForce" value="0"/>
 		<property name="unstickForce" value="1"/>
-		<property name="velocityMax" value="9, 13"/>
+		<property name="velocityMax" value="10, 15"/>
 		<property name="waterDrag_y_velScale_velMaxScale" value="1.8, .9, .1"/>
 		<property name="wheelPtlScale" value="1"/>
 
@@ -709,6 +709,18 @@ Forces:
 			<property name="position" value=".4, .36, .06"/>
 			<property name="rotation" value="-25, 0, 0"/>
 			<property name="exit" value="1.6,0,0 ~ -1.6,0,-1 ~ .4,0,-2.8 ~ .4,0,2.6 ~ .4,2.1,0"/>
+		</property>
+
+		<property class="seat2">
+			<property name="position" value="-.51, .36, -1.34"/>
+			<property name="rotation" value="-25, 0, 0"/>
+			<property name="exit" value="-1.6,0,-1 ~ 1.6,0,-2 ~ -.4,0,-3.8 ~ -.4,0,3.6 ~ -.4,2.1,-1"/>
+		</property>
+
+		<property class="seat3">
+			<property name="position" value=".51, .36, -1.34"/>
+			<property name="rotation" value="-25, 0, 0"/>
+			<property name="exit" value="1.6,0,-1 ~ -1.6,0,-2 ~ .4,0,-3.8 ~ .4,0,3.6 ~ .4,2.1,-1"/>
 		</property>
 
 		<property class="wheel0">
