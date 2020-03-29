@@ -3563,6 +3563,10 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
 <recipe name="resourceCoal" count="1" craft_area="campfire" craft_tool="toolCookingPot" craft_time="10">
 	<ingredient name="resourceWood" count="2"/>
 </recipe>
+<recipe name="ammoGasCan" count="10" craft_area="chemistryStation" tags="chemStationCrafting">
+	<ingredient name="foodCornMeal" count="1"/>
+	<ingredient name="drinkJarGrainAlcohol" count="1"/>
+</recipe>
 
 </recipes>
 <!-- To do (maybe / later)
